@@ -51,14 +51,14 @@ too! A phone call has a `caller` and a `receiver`, a `duration`, and maybe even 
 
 In this lab, you will put together everything you've learned so far about Object
 Orientation in Python. You will be building out two classes, a `Book` class and a
-`Shoe` class.
+`Coffee` class.
 
 ***
 
 ## Instructions
 
 This lab is test-driven. You will write your code in `lib/book.py` and
-`lib/shoe.py`. Run the tests and work your way through the test errors one by
+`lib/coffee.py`. Run the tests and work your way through the test errors one by
 one until you get everything passing.
 
 You're also encouraged to look at the test files to see what the tests are
