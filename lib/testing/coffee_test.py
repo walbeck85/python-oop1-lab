@@ -5,8 +5,8 @@ from lib.coffee import Coffee
 import io
 import sys
 
-class TestShoe:
-    '''Coffee in shoe.py'''
+class TestCoffee:
+    '''Coffee in coffee.py'''
 
     def test_has_size_and_price(self):
         '''has the size and status passed to __init__, and values can be set to new instance.'''
@@ -33,10 +33,9 @@ class TestShoe:
         assert(captured_out.getvalue() == "This coffee is great, here’s a tip!\n")
     
     def test_tip_adds_to_price(self):
-        '''creates an attribute on the instance called 'condition' and set equal to 'New' after repair.'''
+        '''adds 1 to price of coffee'''
         americano = Coffee(size = "Large", price = 3.50)
-        americano.cobble()
+        americano.tip()
         assert(americano.price == 4.50)
         
         
-   
