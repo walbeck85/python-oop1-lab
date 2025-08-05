@@ -23,7 +23,34 @@ Before we begin coding, let's complete the initial setup for this lesson:
   * Clone the forked repository to your local machine.
 * Part 2: Open and Run File
   * Open the project in VSCode.
-  * Run npm install to install all necessary dependencies.
+  * Run `pipenv install` to install all necessary dependencies.
+  * Run `pipenv shell` to enter the virtual environment
+
+This lab is test-driven. You will write your code in `lib/book.py` and
+`lib/coffee.py`. Run the tests and work your way through the test errors one by
+one until you get everything passing.
+
+You're also encouraged to look at the test files to see what the tests are
+expecting to be able to do with your classes. These tests won't force you to
+use everything that you've learned in this module- feel free to add any
+features that might be useful!
+
+Note that there are separate test files for the two classes inside the `testing`
+folder. If you'd like to run the tests separately for the two classes, you can
+specify which test file to run:
+
+```console
+$ pytest -x testing/book_test.py
+```
+
+or:
+
+```console
+$ pytest -x testing/coffee_test.py
+```
+
+Remember that the optional `-x` flag makes your tests stop after the first
+failure - this setting is ideal for test-driven development!
 
 ### Task 1: Define the Problem
 
