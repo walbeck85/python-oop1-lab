@@ -24,7 +24,7 @@ Before we begin coding, let's complete the initial setup for this lesson:
 * Part 2: Open and Run File
   * Open the project in VSCode.
   * Run `pipenv install` to install all necessary dependencies.
-  * Run `pipenv shell` to enter the virtual environment
+  * Run `pipenv shell` to enter the virtual environment.
 
 This lab is test-driven. You will write your code in `lib/book.py` and
 `lib/coffee.py`. Run the tests and work your way through the test errors one by
